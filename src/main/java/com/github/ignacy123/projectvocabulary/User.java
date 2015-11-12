@@ -66,6 +66,7 @@ public class User implements Serializable {
         this.nonSaveable = nonSaveable;
     }
 
+
     public static String computeHash(String str) {
         String sha1 = "";
         try {
